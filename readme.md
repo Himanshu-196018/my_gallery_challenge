@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your Project Name}</h1>
+<h1 align="center">My Gallery</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="{DEMO LINK}">
+    <a href="https://himanshu-196018.github.io/my_gallery_challenge/">
       Demo
     </a>
     <span> | </span>
-    <a href="{REPO LINK}">
+    <a href="https://github.com/Himanshu-196018/my_gallery_challenge">
       Solution
     </a>
     <span> | </span>
-    <a href="{CHALLANGE LINK}">
+    <a href="https://devchallenges.io/challenges/gcbWLxG6wdennelX7b8I">
       Challenge
     </a>
   </h3>
@@ -38,9 +38,9 @@
 
 ![screenshot](images/screenshot.png)
 
-This project is solution to the challenge to build {TITLE OF PAGE} at <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>. It is a responsive web page showcasing {FEATURE}. I have successfully completed this challange and deployed the web page successfully.
+This project is solution to the challenge to build My gallery page at <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>. It is a responsive web page showcasing positioning and responsiveness of multiple images in gallery. I have successfully completed this challange and deployed the web page successfully.
 
-- You can view deployed page <a href="{LINK TO DEMO}">here</a>.
+- You can view deployed page <a href="https://himanshu-196018.github.io/my_gallery_challenge/">here</a>.
 
 - This challange was better for improving skills for placing elements at different locations and working with multiple images. It was a wonderfull experience for me. I faced many challenges during this one challange but got a lot of experince from building it.
 
@@ -59,7 +59,7 @@ This project is solution to the challenge to build {TITLE OF PAGE} at <a href="h
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge]({CHALLENGE LINK}) was to build an application/site to complete the given user stories.
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/gcbWLxG6wdennelX7b8I) was to build an application/site to complete the given user stories.
 
 ## Acknowledgements
 
