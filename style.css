@@ -25,17 +25,17 @@ header {
 .my-info {
   display: grid;
 }
+.my-info > img {
+  width: 101px;
+  height: 101px;
+  border-radius: 16px;
+}
 .my-info > img,
 .name,
 .address {
   display: inline-block;
   justify-self: center;
   margin-top: 12px;
-}
-.my-info > img {
-  width: 101px;
-  height: 101px;
-  border-radius: 16px;
 }
 .name {
   font-size: 14px;
@@ -76,13 +76,72 @@ header {
 /* styling gallery */
 .gallery {
   margin: 40px auto 0;
-  width: 95%;
+  max-width: 95%;
   display: grid;
   gap: 12px;
   justify-content: center;
-  grid-template-areas: "img img img";
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#p2 {
+  grid-column: 2/4;
+}
+#p3 {
+  grid-column: 1/3;
+  grid-row: 2;
+}
+#p4 {
+  grid-row: 2/4;
+}
+.image > a > img {
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+/* .image:hover {
+  transform: scale(1.3);
+} */
+.image > a {
+  text-decoration: none;
 }
 
+/* style for large screen window */
+@media screen and (min-width: 600px) {
+  header {
+    margin-top: 60px;
+  }
+  .my-info > img {
+    width: 156px;
+    height: 156px;
+  }
+  .my-info > img,
+  .name,
+  .address {
+    margin-top: 16px;
+  }
+  .name {
+    font-size: 24px;
+  }
+  .address {
+    font-size: 14px;
+  }
+  .social-info {
+    margin-top: 30px;
+  }
+  .box {
+    width: 100px;
+    height: 67px;
+  }
+  .num,
+  .title {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .gallery {
+    max-width: 930px;
+    margin-top: 40px;
+  }
+}
 /* styling footer */
 .footer {
   margin-top: 100px;
